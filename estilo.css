@@ -43,3 +43,27 @@ a {
 a :hover {
     cursor: pointer;
 }
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ff0000;
+  }
+  .logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+  }
+  .menu {
+    list-style: none;
+    display: flex;
+  }
+  .menu li {
+    margin-left: 20px;
+  }
+  .menu a {
+    text-decoration: none;
+    color: white;
+  }
