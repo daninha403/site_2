@@ -8,6 +8,17 @@
     <div class="container">
         <h1>Receitas com pimenta biquinho</h1>
         <p>A pimenta biquinho é uma pimenta suave e saborosa, que pode ser usada em diversas receitas, desde salgadas até doces. Veja algumas opções:</p>
+
+        <!-- Slider de imagens -->
+        <div class="slider">
+            <img src="https://cookidoo.co.uk/recipeimage/r402218-1080x720.jpg" alt="Geleia de alho e malagueta" class="slide active">
+            <img src="https://www.receiteria.com.br/wp-content/uploads/receitas-de-molho-barbecue-1.jpg" alt="Molho barbecue de pimenta biquinho" class="slide">
+            <img src="https://www.tudoreceitas.com/images/stories/9/92/conserva-de-pimenta-biquinho-simples-e-facil-9229.jpg" alt="Conserva de pimenta biquinho com cebolinha" class="slide">
+            <div class="prev" onclick="prevSlide()">❮</div>
+            <div class="next" onclick="nextSlide()">❯</div>
+        </div>
+
+        <!-- Cards das receitas -->
         <div class="card">
             <img src="https://cookidoo.co.uk/recipeimage/r402218-1080x720.jpg" alt="Geleia de alho e malagueta">
             <div class="card-content">
@@ -46,6 +57,31 @@
                 </ul>
                 <button onclick="showRecipe('conserva')">Ver receita completa</button>
             </div>
+        </div>
+
+        <!-- Formulário de contato -->
+        <div class="contact">
+            <h2>Entre em contato</h2>
+            <p>Se você tem alguma dúvida, sugestão ou elogio, envie uma mensagem para nós. Nós adoramos receber o seu feedback!</p>
+            <form id="contact-form" onsubmit="sendEmail(event)">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+        <!-- Rodapé -->
+        <div class="footer">
+            <p>© 2023 por Receitas com pimenta biquinho. Criado com orgulho pelo assistente do Bing.</p>
+            <ul>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Política de privacidade</a></li>
+                <li><a href="#">Termos de uso</a></li>
+            </ul>
         </div>
 
     </div>
@@ -93,7 +129,7 @@
         </ul>
 
         <!-- Modo de preparo -->
-        <h2>Modo de preparo</h2>
+        <h2>modo de preparo        </h2>
         <ol>
             <li>Em uma panela pequena, misture o ketchup, o mel, a mostarda e o molho inglês. Leve ao fogo médio e cozinhe por cerca de 10 minutos, mexendo ocasionalmente, até o molho ficar encorpado.</li>
             <li>Adicione a pimenta biquinho picada e misture bem. Desligue o fogo e transfira o molho para um pote de vidro com tampa.</li>
@@ -139,6 +175,16 @@
         <!-- Botão de voltar -->
         <button onclick="hideRecipe('conserva')">Voltar</button>
 
+    </div>
+
+    <!-- Rodapé -->
+    <div class="footer">
+        <p>© 2023 por Receitas com pimenta biquinho. Criado com orgulho pelo assistente do Bing.</p>
+        <ul>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">Política de privacidade</a></li>
+            <li><a href="#">Termos de uso</a></li>
+        </ul>
     </div>
 
 </body>
