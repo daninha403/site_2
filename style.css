@@ -1,15 +1,10 @@
 body {
-    color: white;
-    background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
+   background-color: linear-gradient(rgb(221, 186, 166), #d34e60);
+   font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    align-items: center;
-    padding: 16px;
+.container {
+    padding: 0px 50px;
 }
 
 * {
@@ -41,7 +36,6 @@ ul {
     }
     
     .apresentaçao_trabalho{
-    background-image: linear-gradient(rgb(221, 186, 166), #d34e60);
     display: flex;
     justify-content: space-around;
     align-items: center;
