@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+<header class="cabeçalho">
+
+<h1 class="cabeçalho_titulo">PIMENTINHA</h1>
+<ul>
+<li class="cabeçalho_lista_item">Desenvolvimento da Planta</li>
+<li class="cabeçalho_lista_item">Artigos Científicos</li>
+</header>
+<section class="apresentaçao_trabalho">
+<b class="titulo_apresentaçao_trabalho"> Sobre o trabalho:</b>
+<p>Olá, me chamo Daniele e sou aluna do Colégio Estadual Duque de Caxias.</p>
+<p>Estou utilizando essa página HTML para mostrar os resultados da pimenta biquinho com a Prof. Ana Maria na matéria de Biotecnologia
+    
+         <P>VAMOS FALAR UM POUCO SOBRE A PIMENTA BIQUINHO</P>
+         <p>Também chamada pimenta de bico, ela pertence à mesma espécie das pimentas habanero, de-cheiro, bode, cumari-do-Pará e murupi. Todas essas pimentas são muito aromáticas e saborosas, mas o ardor pode ser bem suave (leve), como na biquinho ou muito picante (intenso) como na habanero.</p>
+</section>
+         <img class="imgsite" src="https://www.embrapa.br/bme_images/m/185520040m.jpg" alt="https://www.embrapa.br/bme_images/m/185520040m.jpg">
+        </body>
+</html>
+
+<a href="teste.html">teste</a>
