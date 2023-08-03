@@ -65,3 +65,12 @@ button {
     text-decoration: none;
     border: none;
 }
+
+.recipe {
+    width: 80%;
+    margin: auto;
+}
+
+.hidden {
+    display: none;
+}

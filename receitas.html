@@ -18,7 +18,7 @@
                     <li>Calorias: 132 kcal</li>
                     <li>Ingredientes: maçã, alho, malaguetas, água, açúcar</li>
                 </ul>
-                <button onclick="showRecipe('https://cookidoo.co.uk/recipes/recipe/en-GB/r402218')">Ver receita completa</button>
+                <button onclick="showRecipe('geleia')">Ver receita completa</button>
             </div>
         </div>
         <div class="card">
@@ -31,7 +31,7 @@
                     <li>Rendimento: 1 xícara</li>
                     <li>Ingredientes: ketchup, mel, mostarda, molho inglês, pimenta biquinho</li>
                 </ul>
-                <button onclick="showRecipe('https://www.receiteria.com.br/receitas-com-pimenta-biquinho/#9')">Ver receita completa</button>
+                <button onclick="showRecipe('barbecue')">Ver receita completa</button>
             </div>
         </div>
         <div class="card">
@@ -44,9 +44,100 @@
                     <li>Rendimento: 300 gramas</li>
                     <li>Ingredientes: pimenta biquinho fresca, açúcar, cachaça ou vodka, sal, folhas de louro, dentes de alho, ramo de tomilho, água, vinagre de álcool, pimenta do reino em grãos</li>
                 </ul>
-                <button onclick="showRecipe('https://www.tudoreceitas.com/receita-de-conserva-de-pimenta-biquinho-simples-e-facil-9229.html')">Ver receita completa</button>
+                <button onclick="showRecipe('conserva')">Ver receita completa</button>
             </div>
         </div>
+
+    </div>
+
+    <!-- Receita da geleia -->
+    <div id="geleia" class="recipe hidden">
+        <h1>Geleia de alho e malagueta</h1>
+
+        <!-- Ingredientes -->
+        <h2>Ingredientes</h2>
+        <ul>
+            <li>1200 gramas de maçã</li>
+            <li>16 dentes de alho</li>
+            <li>6 malaguetas vermelhas</li>
+            <li>900 gramas de água</li>
+            <li>Açúcar a gosto</li>
+        </ul>
+
+        <!-- Modo de preparo -->
+        <h2>Modo de preparo</h2>
+        <ol>
+            <li>Descasque as maçãs e corte-as em pedaços pequenos. Descasque os alhos e corte-os ao meio. Lave as malaguetas e retire os talos e as sementes.</li>
+            <li>Coloque as maçãs, os alhos, as malaguetas e a água em uma panela grande e leve ao fogo alto. Deixe cozinhar por cerca de 40 minutos, mexendo de vez em quando, até as maçãs ficarem macias.</li>
+            <li>Transfira a mistura para um liquidificador ou processador e bata até obter uma pasta homogênea. Volte a pasta para a panela e adicione o açúcar a gosto. Leve ao fogo baixo e cozinhe por mais 20 minutos, mexendo sempre, até a geleia engrossar.</li>
+            <li>Coloque a geleia em potes de vidro esterilizados e feche bem. Deixe esfriar e guarde na geladeira por até 3 meses.</li>
+        </ol>
+
+        <!-- Botão de voltar -->
+        <button onclick="hideRecipe('geleia')">Voltar</button>
+
+    </div>
+
+    <!-- Receita do molho barbecue -->
+    <div id="barbecue" class="recipe hidden">
+        <h1>Molho barbecue de pimenta biquinho</h1>
+
+        <!-- Ingredientes -->
+        <h2>Ingredientes</h2>
+        <ul>
+            <li>1 xícara de ketchup</li>
+            <li>1/4 de xícara de mel</li>
+            <li>2 colheres de sopa de mostarda</li>
+            <li>2 colheres de sopa de molho inglês</li>
+            <li>1/4 de xícara de pimenta biquinho picada</li>
+        </ul>
+
+        <!-- Modo de preparo -->
+        <h2>Modo de preparo</h2>
+        <ol>
+            <li>Em uma panela pequena, misture o ketchup, o mel, a mostarda e o molho inglês. Leve ao fogo médio e cozinhe por cerca de 10 minutos, mexendo ocasionalmente, até o molho ficar encorpado.</li>
+            <li>Adicione a pimenta biquinho picada e misture bem. Desligue o fogo e transfira o molho para um pote de vidro com tampa.</li>
+            <li>Deixe esfriar e guarde na geladeira por até 2 semanas. Use o molho para acompanhar sanduíches, hambúrgueres, carnes assadas ou grelhadas.</li>
+        </ol>
+
+        <!-- Botão de voltar -->
+        <button onclick="hideRecipe('barbecue')">Voltar</button>
+
+    </div>
+
+    <!-- Receita da conserva -->
+    <div id="conserva" class="recipe hidden">
+        <h1>Conserva de pimenta biquinho com cebolinha</h1>
+
+        <!-- Ingredientes -->
+        <h2>Ingredientes</h2>
+        <ul>
+            <li>300 gramas de pimenta biquinho fresca</li>
+            <li>1 colher de sopa de açúcar</li>
+            <li>1 dose de cachaça ou vodka (50ml)</li>
+            <li>1 colher de chá de sal</li>
+            <li>2 folhas de louro</li>
+            <li>3 dentes de alho</li>
+            <li>1 ramo de tomilho</li>
+            <li>¼ xícara de água (60 mililitros)</li>
+            <li>Vinagre de álcool a gosto</li>
+            <li>1 colher de chá de pimenta do reino em grãos</li>
+        </ul>
+
+        <!-- Modo de preparo -->
+        <h2>Modo de preparo        </h2>
+        <ol>
+            <li>Antes de tudo, esterilize o vidro e a tampa onde vai colocar a conserva de pimenta biquinho. Para isso, coloque o pote e a tampa em uma panela com água e deixe ferver por 15 minutos. Depois deixe o vidro e a tampa secarem.</li>
+            <li>Em seguida coloque para ferver cerca de 1 litro de água. Assim que levantar fervura, acrescente as pimentas já sem os talos e deixe cozinhar por 3 minutos.</li>
+            <li>Retire as pimentas da água quente, escorra bem e transfira para uma bacia com água fria e gelo, para dar um choque térmico nas pimentas. Após esse processo, escorra as pimentas e seque-as com papel toalha.</li>
+            <li>Em outra panela, prepare o líquido da conserva: misture a água, o açúcar, o sal, a cachaça e a pimenta do reino em grãos. Deixe no fogo baixo até levantar fervura e perceber que o açúcar dissolveu.</li>
+            <li>Agora coloque no vidro já esterilizado e seco punhados de pimenta intercalados com os temperos (folhas de louro, dentes de alho cortados ao meio e cebolinhas inteiras). Não se esqueça de colocar também o ramo de tomilho no meio dessa montagem.</li>
+            <li>Assim que ajeitar tudo no vidro, despeje o líquido da conserva e complete o restante com vinagre até chegar ao topo. Feche o vidro e vire-o para baixo, deixe descansar cerca de 15 minutos para que os ingredientes se misturem bem.</li>
+            <li>Guarde sua pimenta biquinho em conserva fora da geladeira por até 1 ano. Depois de aberta, reserve na geladeira e consuma em 2-3 meses.</li>
+        </ol>
+
+        <!-- Botão de voltar -->
+        <button onclick="hideRecipe('conserva')">Voltar</button>
 
     </div>
 
